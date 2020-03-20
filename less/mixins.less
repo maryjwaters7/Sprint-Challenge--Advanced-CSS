@@ -1,1 +1,37 @@
-// Mixins Here
+.custom-btn(@bgcolor, @width, @height, @fontcolor){
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: @bgcolor;
+    cursor: pointer;
+    width: @width;
+    height: @height;
+    font-size: 2.2rem;
+    border-radius: 5px;
+    color:@fontcolor; 
+     
+     &:hover{
+       background-color:@wild-sand;
+       color:@btn-bg-color;     
+     }//closes hover
+
+}//closes button
+
+.flexrow{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.flexcol{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.links{
+    text-decoration:none;
+    font-size:1.8rem;
+    color:@main-font-color;
+}

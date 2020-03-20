@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>SpaceWalkers</title>
 
@@ -18,15 +19,31 @@
 
  <!-- navigation code here -->
 
+  <header><!--Parent of the Nav Bar-->
+
+      <h1>SpaceWalkers</h1>
+
+      <nav><!--Parent of the Nav Links-->
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <a href="#btn">Sign In</a>
+      </nav>
+
+  </header>
+
   <div class="container home">
 
-    <header class="intro">
+    <section class="intro">
        <!-- image code here -->
+
+       <img class="mainHeader-img" src="img/main-header.png" alt="photograph of the top of the earth with clouds as viewed from space">
 
       <h2>Lift Off</h2>
     
       <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would fall apart. Seeing this has to change a man.</p>
-    </header>
+    </section>
 
     <section class="space-images">
         <img src="img/blast.png" class="blast" alt="Rocket blasting off">
@@ -51,9 +68,10 @@
       
         <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       
-        <div class="btn">
+        <div id="btn">
           Sign Up
         </div>
+
       </div>
       
       <div class="walk-img">
